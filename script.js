@@ -1,7 +1,7 @@
 // 8 jogos — edite nome, descrição, link de jogar e link de baixar
 const games = [
   { name: "Chicken Run", desc: "Fuja do galinheiro.", play: "https://makinadeideias.github.io/play/games/ChickenRun.html", download: "#" },
-  { name: "Shootout X",  desc: "Duelo de precisão.",  play: "#", download: "#" },
+  { name: "Shootout X",  desc: "Duelo de precisão.",  play: "/play/games/ChickenRun.html", download: "#" },
   { name: "Jogo 03",     desc: "Em breve.",           play: "#", download: "#" },
   { name: "Jogo 04",     desc: "Em breve.",           play: "#", download: "#" },
   { name: "Jogo 05",     desc: "Em breve.",           play: "#", download: "#" },
