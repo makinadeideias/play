@@ -9,7 +9,7 @@
   },
   
   
-  { name: "Shootout X",  desc: "Duelo de precisão.",  play: "/play/games/ChickenRun.html", download: "#" };
+  { name: "Shootout X",  desc: "Duelo de precisão.",  play: "/play/games/ChickenRun.html", download: "#" };]
 
 const grid = document.getElementById("gameGrid");
 const countEl = document.getElementById("gameCount");
