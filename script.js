@@ -1,15 +1,18 @@
 // 8 jogos — edite nome, descrição, link de jogar e link de baixar
-
-  const games = [
+const games = [
   {
     name: "Chicken Run",
     desc: "Fuja do galinheiro.",
     play: "https://makinadeideias.github.io/play/games/ChickenRun.html",
     download: "https://makinadeideias.github.io/play/games/ChickenRun.html"
   },
-  
-  
-  { name: "Shootout X",  desc: "Duelo de precisão.",  play: "/play/games/ChickenRun.html", download: "#" },
+  { name: "Shootout X", desc: "Duelo de precisão.", play: "#", download: "#" },
+  { name: "Jogo 03",    desc: "Em breve.",          play: "#", download: "#" },
+  { name: "Jogo 04",    desc: "Em breve.",          play: "#", download: "#" },
+  { name: "Jogo 05",    desc: "Em breve.",          play: "#", download: "#" },
+  { name: "Jogo 06",    desc: "Em breve.",          play: "#", download: "#" },
+  { name: "Jogo 07",    desc: "Em breve.",          play: "#", download: "#" },
+  { name: "Jogo 08",    desc: "Em breve.",          play: "#", download: "#" },
 ];
 
 const grid = document.getElementById("gameGrid");
@@ -44,7 +47,7 @@ games.forEach((game, i) => {
       <a href="${game.play}" class="action action-play" target="_blank" rel="noopener">
         ${iconPlay} Jogar
       </a>
-      <a href="${game.download}" class="action action-download" download>
+      <a href="${game.download}" class="action action-download" target="_blank" rel="noopener">
         ${iconDownload} Baixar
       </a>
     </div>
